@@ -75,7 +75,7 @@ class DogCardAdapter(
         val item = dogInfo[position]
         holder.imageView.setImageResource(item.imageResourceId)
         holder.textViewName.text = item.name
-        holder.textViewAge.text = item.age
+        holder.textViewAge.text = "Age: ${item.age}"
 
         // TODO: Get the data at the current position
         // TODO: Set the image resource for the current dog
